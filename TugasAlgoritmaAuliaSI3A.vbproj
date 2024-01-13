@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6332480D-EA51-4FEC-9143-629B9D8DBBD1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TugasAlgoritmaAuliaSI3A.My.MyApplication</StartupObject>
+    <RootNamespace>TugasAlgoritmaAuliaSI3A</RootNamespace>
+    <AssemblyName>TugasAlgoritmaAuliaSI3A</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TugasAlgoritmaAuliaSI3A.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TugasAlgoritmaAuliaSI3A.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="10TugasQueue.Designer.vb">
+      <DependentUpon>10TugasQueue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="10TugasQueue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11LatihanSorting.Designer.vb">
+      <DependentUpon>11LatihanSorting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="11LatihanSorting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1FormNama.Designer.vb">
+      <DependentUpon>1FormNama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1FormNama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2HitungNilaiAkhir.Designer.vb">
+      <DependentUpon>2HitungNilaiAkhir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2HitungNilaiAkhir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3ProgramBelanjaSederhana.Designer.vb">
+      <DependentUpon>3ProgramBelanjaSederhana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3ProgramBelanjaSederhana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4Perulangan.Designer.vb">
+      <DependentUpon>4Perulangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4Perulangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5MenghitungJarak.Designer.vb">
+      <DependentUpon>5MenghitungJarak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5MenghitungJarak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6ArraySatuDimensi.Designer.vb">
+      <DependentUpon>6ArraySatuDimensi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="6ArraySatuDimensi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7ArrayTempatTanggalLahir.Designer.vb">
+      <DependentUpon>7ArrayTempatTanggalLahir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="7ArrayTempatTanggalLahir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="8operasibilangan.Designer.vb">
+      <DependentUpon>8operasibilangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="8operasibilangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="9LatihanFunction.Designer.vb">
+      <DependentUpon>9LatihanFunction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="9LatihanFunction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="12SortingListBox.Designer.vb">
+      <DependentUpon>12SortingListBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="12SortingListBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="10TugasQueue.resx">
+      <DependentUpon>10TugasQueue.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11LatihanSorting.resx">
+      <DependentUpon>11LatihanSorting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1FormNama.resx">
+      <DependentUpon>1FormNama.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2HitungNilaiAkhir.resx">
+      <DependentUpon>2HitungNilaiAkhir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3ProgramBelanjaSederhana.resx">
+      <DependentUpon>3ProgramBelanjaSederhana.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4Perulangan.resx">
+      <DependentUpon>4Perulangan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5MenghitungJarak.resx">
+      <DependentUpon>5MenghitungJarak.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6ArraySatuDimensi.resx">
+      <DependentUpon>6ArraySatuDimensi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7ArrayTempatTanggalLahir.resx">
+      <DependentUpon>7ArrayTempatTanggalLahir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8operasibilangan.resx">
+      <DependentUpon>8operasibilangan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="9LatihanFunction.resx">
+      <DependentUpon>9LatihanFunction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12SortingListBox.resx">
+      <DependentUpon>12SortingListBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
